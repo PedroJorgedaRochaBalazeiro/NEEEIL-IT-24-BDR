@@ -1,0 +1,97 @@
+.homePageBackground {
+    background-image: url('../images/Neeelito.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative; /* Ensure position context for absolute positioning */
+    background-size: 100% auto;
+    height: 100vh;
+    background-color: #000e2d;
+}
+
+.content {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white; /* Example text color */
+}
+
+.pageTitle {
+    font-size: 100px; /* Example font size */
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5%;
+}
+
+.button:hover {
+    background-color: white;
+    color: #000e2d;
+}
+
+.neelitoPageBackground {
+    background-color: #000e2d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/maze.png');
+}
+
+.contentNeeelito {
+    text-align: center;
+}
+
+.pageTitleNeeelito {
+    font-size: 75px;
+    margin-bottom: 20px;
+    color: #000e2d;
+    background-color: white;
+    padding: 20px 300px; /* Increase padding for top and bottom */
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.algorithmButton {
+    border: none;
+    color: white;
+    width: 400px; /* Set the width */
+    height: 100px; /* Set the height */
+    text-align: center;
+    text-decoration: none;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-size: 40px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+    background-color: #000e2d;
+}
+
+
+
+.algorithmButton:hover {
+    background-color: white;
+    color: #000e2d;
+}

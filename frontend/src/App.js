@@ -10,6 +10,7 @@ import {
 import Home from "./pages/Home";
 import MazeMap from "./pages/MazeMap";
 import Neeelito from "./pages/Neeelito";
+import Members from "./pages/Members"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/Home-Page" element={<Home />} />
             <Route path="/MazeMap-Page" element={<MazeMap />} />
             <Route path="/Neeelito-Page" element={<Neeelito />} />
+            <Route path="/Members-Page" element={<Members />} />
         </Routes>
     </Router>
 );

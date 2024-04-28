@@ -1,5 +1,5 @@
 .homePageBackground {
-    background-image: url('../images/Neeelito.png');
+    background-image: url('../backgroundImage/Neeelito.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -36,6 +36,7 @@
     border-radius: 10px;
     transition: background-color 0.3s ease;
     margin-bottom: 5%;
+    margin-left: 5%;
 }
 
 .button:hover {
@@ -49,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/maze.png');
+    background-image: url('../backgroundImage/maze.png');
 }
 
 .contentNeeelito {
@@ -62,6 +63,7 @@
     color: #000e2d;
     background-color: white;
     padding: 20px 300px; /* Increase padding for top and bottom */
+    opacity: 0.9;
 }
 
 .buttonContainer {
@@ -94,4 +96,76 @@
 .algorithmButton:hover {
     background-color: white;
     color: #000e2d;
+}
+
+.neelitoFreundenPageBackground {
+    background-color: #000e2d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentMembers {
+    text-align: center;
+}
+
+.pageTitleMembers {
+    font-size: 75px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.imageContainer {
+    display: flex;
+}
+
+.imageItem {
+    margin: 0 30px;
+    text-align: center;
+    position: relative;
+}
+
+.imageItem img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.imageLabel {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+.imageItem {
+    position: relative;
+    display: inline-block;
+}
+
+.description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+.imageItem:hover .description {
+    opacity: 1; /* Show on hover */
+}
+
+.description p {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }

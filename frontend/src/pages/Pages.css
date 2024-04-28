@@ -169,3 +169,25 @@
     margin: 0;
     padding: 10px;
 }
+
+.mazePageBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000e2d; /* Set the background color */
+}
+
+.contentMaze {
+    text-align: center;
+}
+
+.pageTitleMaze {
+    font-size: 75px;
+    color: white;
+}
+
+.mazeGrid {
+    background-color: white; /* Set the background color of the maze area */
+    padding: 20px; /* Add padding to create space between maze and container edges */
+}

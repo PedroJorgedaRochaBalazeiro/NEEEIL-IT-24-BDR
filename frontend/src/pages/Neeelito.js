@@ -8,10 +8,7 @@ function NeeelitoPage() {
             <div className="contentNeeelito">
                 <h1 className="pageTitleNeeelito">Choose the algorithm</h1>
                 <div className="buttonContainer">
-                    <Link to="/Neeelito-Page" className="algorithmButton">Dijkstra</Link>
-                    <Link to="/Neeelito-Page" className="algorithmButton">BDS</Link>
-                    <Link to="/Neeelito-Page" className="algorithmButton">DFS</Link>
-                    <Link to="/Neeelito-Page" className="algorithmButton">A* Star</Link>
+                    <a href="http://192.168.232.57/" className="algorithmButton">Controls</a>
                     <Link to="/MazeMap-Page" className="algorithmButton">Maze Map</Link>
                 </div>
             </div>
